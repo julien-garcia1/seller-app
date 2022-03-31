@@ -1,15 +1,15 @@
 <template>
-<div class="wrapper">
-  <div class="container">
-    <h2>Seller App</h2>
+  <div class="wrapper">
+    <div class="container">
+      <h2>Seller App</h2>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
-}
+  name: "IndexPage",
+};
 </script>
 
 <style lang="scss" scoped>
@@ -20,7 +20,6 @@ div {
     @include desktop {
       color: blue;
     }
-
   }
 }
 </style>
