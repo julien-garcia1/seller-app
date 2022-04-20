@@ -2,6 +2,7 @@
   <div class="wrapper">
     <div class="container">
       <h2>Seller App</h2>
+      <nuxt-link class="button" to="new-call">Appeler un vendeur</nuxt-link>
     </div>
   </div>
 </template>
@@ -15,11 +16,7 @@ export default {
 <style lang="scss" scoped>
 div {
   h2 {
-    color: red;
-
-    @include desktop {
-      color: blue;
-    }
+    color: black;
   }
 }
 </style>

@@ -57,3 +57,28 @@ $breakpoints: (
     @content;
   }
 }
+
+/**
+ * Mixin for center everything with flexbox
+ */
+ @mixin flex-row() {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+ @mixin flex-col() {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+ @mixin flex-row-center() {
+   @include flex-row;
+   justify-content: center;
+   align-items: center;
+ }
+
+ @mixin flex-col-center() {
+  @include flex-col;
+   justify-content: center;
+   align-items: center;
+ }
